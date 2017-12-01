@@ -54,7 +54,7 @@ class OfficeWorkerSalary implements Employee{
 
     private double baseSalary;
     private double bonus;
-    private double dimensionTime;
+    private double dimensionTime;// Niestety nie wpadłam na to jak można napisać kod bez powtarzania tego pola w 2 klasach//
     public OfficeWorkerSalary(double baseSalary,double bonus,double dimensionTime){
         this.baseSalary = baseSalary;
         this.bonus = bonus;
